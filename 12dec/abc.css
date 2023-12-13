@@ -1,0 +1,50 @@
+/* *{
+    color: red;
+}
+h4{
+    color: blue;
+}
+div{
+    background-color: aqua;
+}
+
+#eg1{
+    background-color: purple;
+    color: white;
+}
+
+.kirtan{
+    background-color: black;
+    color: yellow;
+}
+
+.ball{
+    border: 10px solid red;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    background-color: orange;
+} */
+
+
+#parent p{
+    background-color: blue;
+}
+
+/* 
+#parent>div>p{
+    background-color: pink;
+}
+
+#parent>div>div>p{
+    background-color: green;
+} */
+
+#eg1 h2{
+    background-color: yellow;
+}

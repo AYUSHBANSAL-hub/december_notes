@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="user_name">Full Name:</label>
+        <input id="user_name" name="user_name" placeholder="Ayush Bansal" type="text" required><br>
+        <label for="user_number">Mobile Number:</label>
+        <input id="user_number" name="user_mobile" placeholder="9844782927" type="number" required> <br>
+        <p>Password:</p>
+        <input name="password" type="password" required> <br>
+        <input name="user_email" placeholder="ayush@acciojob.com" type="email" required><br>
+        <input name="dob" type="date" required><br>
+        <input type="file"><br>
+        <input type="range" min="5" value="10" max="10"><br>
+        <input type="color"><br>
+        <input type="reset">
+        <input type="submit">
+        <br>
+        <label for="gender_m">Male</label>
+        <input id="gender_m" name="gender" value="male" type="radio">
+        <span>Female</span>
+        <input name="gender" value="female" type="radio">
+        <span>Other</span>
+        <input name="gender" value="other" type="radio">
+        <br>
+        <div>
+            <input type="checkbox" value="blue"> Blue
+            <input type="checkbox" value="green"> Green
+            <input type="checkbox" value="pink"> Pink
+            <input type="checkbox" value="red"> Red
+        </div>
+        <label for="select_cars">
+
+            Favourite Cars:
+        </label>
+        <select id="select_cars" name="favourite_car" >
+            <option value="NA">Select the option</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Dzire">Swift Dzire</option>
+        </select>
+        <!-- When we are expecting the user to enter multiple lines of text: -->
+        <textarea rows="4" cols="50"></textarea>
+        <button type="reset">Login</button>
+
+    </form>
+</body>
+</html>
