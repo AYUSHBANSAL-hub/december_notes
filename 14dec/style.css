@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#eg1{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    /* one value */
+    /* margin: 50px; */
+    /* two value */
+    /* margin: y-axis x-axis */
+    /* margin: 20px 50px; */
+    /* three value */
+    /* margin: 10px 20px 50px; */
+    /* margin: top left&right bottom */
+    /* four value */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: top right bottom left */
+    /* margin-top: 10px ;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 50px; */
+    /* margin-inline: 50px; */
+    margin: 50px;
+}
+
+#eg2{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    margin: 50px;
+}
+
+#eg3{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    /* one value */
+    /* padding: 30px; */
+    /* two value */
+    /* padding: y-axis x-axis */
+    /* padding: 10px 30px; */
+    /* third */
+    /* padding: 10px 20px 40px; */
+    /* padding: top left,right bottom */
+    /* four */
+    /* padding: 10px 20px 30px 40px; */
+    /* padding: top right bottom left */
+    /* padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 100px; */
+    /* padding-inline: 30px; */
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#eg4{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    padding: 30px;
+    border-width: 10px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 80%;
+}
+
+
+#eg5{
+    width: 400px;
+    height: 400px;
+    border: 1px solid blue;
+    /* background-color: blue; */
+    background-image: url("https://images.unsplash.com/photo-1702452782235-9b850b9255c2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#eg6{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+    display: inline-block;
+    /* display: inline; */
+}
+#eg7{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+    /* display: inline; */
+    display: inline-block;
+}
+
+
+#eg8{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    /* display: block; */
+    display: inline-block;
+}
+#eg9{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+    /* display: block;display: inline-block; */
+    display: inline-block;
+}
+
+#eg10{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: none;
+    /* It hides the element from the layout 
+    and removes it from the flow of the document
+    It makes the element invisible and takes up no space */
+}
