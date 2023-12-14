@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#eg1{
+    color: #3f2cdd;
+    text-align: justify;
+
+}
+
+#eg2{
+    text-decoration: red underline;
+}
+#eg3{
+    text-decoration: pink line-through;
+    text-transform: uppercase;
+}
+#eg4{
+    text-decoration: green overline;
+    text-transform: lowercase;
+}
+
+#eg5{
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+#eg6{
+    color: white;
+    text-shadow: 0px 0px 10px red;
+    font-family: Arial, sans-serif;
+}
+
+
+#eg7{
+    font-family: monospace;
+}
+
+#eg8{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#eg9{
+    font-family: 'Inter', sans-serif;
+}
+
+
+#eg10{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 100px;
+}
+
+
+#eg11{
+    font-size: 50px;
+    font-weight: 100;
+}
+#eg12{
+    font-size: 50px;
+    font-weight: 300;
+}
+#eg13{
+    font-size: 50px;
+    font-weight: 600;
+}
+#eg14{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+#eg15{
+    background-color: blue;
+    /* Absolute values */
+    /* width: 500px; */
+    /* mm */
+    /* width: 100mm; */
+    /* cm */
+    /* width: 5cm; */
+    /* relative */
+    /* percentage */
+    /* rem/em */
+    width: 50%;
+}
+
+#eg16{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+#eg17{
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+}
+
+#eg18{
+    width: 75%;
+    height: 50%;
+    background-color: green;
+}
+#eg19{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+}
