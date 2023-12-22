@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+/* .my-color{
+    jendkjdfnjkdn
+} */
+/* Background color */
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+/* Text color */
+.text-red{
+    color: red;
+}
+.text-green{
+    color: green;
+}
+.text-blue{
+    color: blue;
+}
+.text-white{
+    color: white;
+}
+.text-yellow{
+    color: yellow;
+}
+
+/* font size */
+.fs-1{
+    font-size: 40px;
+}
+.fs-2{
+    font-size: 35px;
+}
+.fs-3{
+    font-size: 30px;
+}
+.fs-4{
+    font-size: 20px;
+}
+.fs-5{
+    font-size: 15px;
+}
+.fs-6{
+    font-size: 10px;
+}
+
+/* Margin */
+
+.m-0{
+    margin: 0px;
+}
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 10px;
+}
+.m-3{
+    margin: 15px;
+}
+.m-4{
+    margin: 20px;
+}
+.m-auto{
+    margin: auto;
+}
+
+/* padding */
+.p-0{
+    padding: 0px;
+}
+.p-1{
+    padding: 5px;
+}
+.p-2{
+    padding: 10px;
+}
+.p-3{
+    padding: 15px;
+}
+.p-4{
+    padding: 20px;
+}
+
+.fst-italics{
+    font-style: italic;
+}
+/* border */
+
+.border-1{
+    border: 1px solid black;
+}
+.border-2{
+    border: 2px solid black;
+}
+.border-3{
+    border: 3px solid black;
+}
+.border-4{
+    border: 4px solid black;
+}
+.border-5{
+    border: 5px solid black;
+}
+
+/* width */
+
+.w-10{
+    width: 10%;
+}
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+.w-75{
+    width: 75%;
+}
+.w-100{
+    width: 100%;
+}
+/* height */
+.h-10{
+    height: 10%;
+}
+.h-25{
+    height: 25%;
+}
+.h-50{
+    height: 50%;
+}
+.h-75{
+    height: 75%;
+}
+.h-100{
+    height: 100%;
+}
+
+.rounded-1{
+    border-radius: 5px;
+}
+.rounded-2{
+    border-radius: 10px;
+}
+.rounded-3{
+    border-radius: 15px;
+}
+
+/* alignment */
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-center{
+    text-align: center;
+}
+.text-underline{
+    text-decoration: underline;
+}
