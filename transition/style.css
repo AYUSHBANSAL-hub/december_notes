@@ -1,0 +1,54 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: background-color 1s ease;
+    /* Transition */
+    /* transition: <property> <duration> <timing function> <delay> ;
+    */
+    /* Property:  This component specifies the CSS property or properties that should be animated. */
+    /* Duration: Time to change from one state to another */
+    /* Timing Function: It defines the speed curve of the transition.
+    It determines hwo the intermedia property values are calculated. */
+    /* linear: Constant speed */
+    /* Ease: slow-> fast-> slow  */
+    /* ease-in: slow->fast */
+    /* ease-out: fast->slow */
+    /* ease-in-out: slow-> fast-> slow( a litle more visible)  */
+    /* Delay: Time after which the journey should start */
+}
+#box:hover{
+    background-color: red;
+}
+
+/* Transition on click (opacity) */
+.btn{
+    background-color: blue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    transition: opacity 0.5s ease, background-color 1s ease;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    background-color: red;
+    color: pink;
+}
+
+.btn:active{
+    opacity: 0.5;
+    background-color: green;
+}
+
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition:all 1s ease;
+}
+
+#box2:hover{
+    transform: rotate(360deg);
+}
