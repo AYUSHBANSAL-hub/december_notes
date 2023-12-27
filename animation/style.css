@@ -1,0 +1,67 @@
+/* #box{
+    width: 300px;
+    height: 300px;
+    animation: abc 2s ease 0s infinite paused;
+    background-color: red;
+}
+
+
+
+@keyframes riya {
+    0%{
+        background-color: blue;
+    }
+    20%{
+        background-color: red;
+    }
+    50%{
+        background-color: green;
+    }
+    90%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+@keyframes abc {
+    0%{
+        width: 200px;
+    }
+    100%{
+        width: 800px;
+    }
+}
+ */
+
+ .container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+#loader{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 15px solid rgb(216, 216, 216);
+    border-radius: 50%;
+    border-top: 15px solid red;
+    border-bottom: 15px solid red;
+    animation: loader 2s linear 0s infinite;
+}
+
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
