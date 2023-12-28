@@ -2,14 +2,8 @@
 // Data types (done)
 // arithmetic operations (done)
 // conditionals (done)
-// loops
-// function
-// Arrow functions
-// Array
-// Var, let, const difference
-// Reassignment
-// hoisting
-// scopes
+// loops (done)
+
 
 // Outputting text in console
 
@@ -252,3 +246,4 @@ let aa=5;
 while(aa--){
     console.log(aa);
 }
+
